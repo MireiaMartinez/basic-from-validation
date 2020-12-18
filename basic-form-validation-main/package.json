@@ -1,0 +1,32 @@
+{
+  "name": "basic-form-validation-main",
+  "version": "1.0.0",
+  "description": "Basic Form Validation",
+  "main": "app.js",
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "webpack": "webpack --mode development --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.21.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.11.2",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.6",
+    "postman": "^0.2.0",
+    "semantic-ui-css": "^2.4.1",
+    "vue-flash-message": "^0.7.2"
+  },
+  "devDependencies": {
+    "babel-loader": "^8.2.2",
+    "babel-preset-env": "^1.7.0",
+    "vue": "^2.6.12",
+    "vue-loader": "^15.9.5",
+    "vue-template-compiler": "^2.6.12",
+    "webpack": "^5.9.0",
+    "webpack-cli": "^4.2.0"
+  }
+}
